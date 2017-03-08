@@ -1,0 +1,11 @@
+* {
+    border-radius: none;
+}
+
+main {
+    padding-top: 50px;
+}
+
+section {
+    height: 100vh;
+}
