@@ -1,11 +1,59 @@
 * {
     border-radius: none;
 }
-
-main {
-    padding-top: 50px;
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+#about, #intro-container {
+    background-color: whitesmoke;
+    opacity: 0.9;
 }
 
+body {
+    background-image: url("jumbotronart.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#events-link {
+    padding: 20px;
+    font-size: 1.5rem;
+    color: darkslategrey;
+    width: 100%;
+}
+
+
+#home {
+    margin-top: 100px;
+}
+
+#invite-wrapper:hover {
+    text-decoration: none;
+    background-color: gray;
+    color: aliceblue;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+main {
+    padding-top: 60px;
+}
+
+
 section {
-    height: 100vh;
+    height: 90vh;
+    padding-top: 60px;
+}
+
+.subtitle {
+    text-align: right;
+}
+
+#title-wrapper {
+    padding: 20px;
 }
