@@ -1,5 +1,6 @@
 * {
     border-radius: none;
+    
 }
 a {
     text-decoration: none;
@@ -7,9 +8,10 @@ a {
 a:hover {
     text-decoration: none;
 }
-#about, #intro-container {
+#about, #intro-container, #community {
     background-color: whitesmoke;
     opacity: 0.9;
+    margin-top: 60px;
 }
 
 body {
@@ -17,6 +19,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-size: 1.9rem;
 }
 
 #events-link {
@@ -26,7 +29,11 @@ body {
     width: 100%;
 }
 
-
+footer {
+    background-color: darkslategray;
+    color: white;
+    width: 100%;
+}
 #home {
     margin-top: 100px;
 }
@@ -44,10 +51,15 @@ main {
     padding-top: 60px;
 }
 
-
+#media, #contact {
+    margin-top: 60px;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
 section {
-    height: 90vh;
-    padding-top: 60px;
+    min-height:  90vh;
+    padding: 60px 100px 20px 20px;
 }
 
 .subtitle {
