@@ -3,7 +3,7 @@
     
 }
 a {
-    text-decoration: none;
+    color: black;
 }
 a:hover {
     text-decoration: none;
@@ -13,13 +13,17 @@ a:hover {
     opacity: 0.9;
     margin-top: 60px;
 }
-
+#accordian {
+    color: dimgray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 body {
     background-image: url("jumbotronart.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-size: 1.9rem;
+    font-size: 1.3rem;
 }
 
 #events-link {
@@ -34,10 +38,14 @@ footer {
     color: white;
     width: 100%;
 }
+
 #home {
     margin-top: 100px;
 }
 
+#snowypark {
+    margin: 30px;
+}
 #invite-wrapper:hover {
     text-decoration: none;
     background-color: gray;
