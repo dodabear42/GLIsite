@@ -25,7 +25,9 @@ body {
     background-size: cover;
     font-size: 1.3rem;
 }
-
+card p {
+    font-size: 1.0 rem;
+}
 #events-link {
     padding: 20px;
     font-size: 1.5rem;
@@ -42,7 +44,9 @@ footer {
 #home {
     margin-top: 100px;
 }
-
+.card-img {
+    margin-top: 20px;
+}
 #snowypark {
     margin: 30px;
 }
@@ -65,6 +69,7 @@ main {
     width: 100%;
     color: white;
 }
+
 section {
     min-height:  90vh;
     padding: 60px 100px 20px 20px;
